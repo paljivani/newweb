@@ -1,0 +1,35 @@
+section{
+    
+    background-color: rgba(136, 133, 133, 0.904);
+}
+.w-33
+{
+    width: 33%;
+    text-align: center;
+    margin-top: 20px;
+}
+.w-33 img 
+{
+    width: 100%;
+}
+.w-33 p
+{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin: 20px 0 20px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}.w-33 h4
+{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: 20px 0 20px 0;
+}
+.w-33 .button1
+{
+    display: block;
+    margin: auto;
+}
+.rc-info
+{
+    margin-bottom: 20px;
+}

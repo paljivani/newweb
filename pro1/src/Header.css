@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orelega+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orelega+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Square+Peg&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container
+{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+header{
+    padding: 10px 60px 10px 60px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-self-center {
+    align-self: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+.nav ul li a
+{
+    padding: 0 30px 0 0;
+}
+.nav ul li a
+{
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    transition: all 0.5s;
+    
+}
+ul,ol
+{
+    list-style: none;
+}
+.nav ul li a:hover
+{
+    color: rgb(255, 187, 0);
+}
+.button1
+{
+    background-color: rgb(255, 187, 0);
+    display: block;
+    border: 2px solid rgb(255, 187, 0);
+    padding: 5px 15px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: normal; 
+    cursor: grab;
+}
+.button1:hover{
+    background-color:transparent;
+    border-color:rgb(255, 187, 0);
+    color: white;
+}
+.logo span{
+    color: rgb(255, 187, 0);
+    padding-left: 5px;
+    font-size: 40px;
+}

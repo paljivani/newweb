@@ -1,0 +1,45 @@
+.w-30
+{
+    width: 33%;
+}
+.bg
+{
+    background-color: black;
+    color: white;
+}
+.bg h2{
+    color: rgb(255, 187, 0) ;
+    font-size: 15px;
+    padding: 20px 0 20px 10px;
+}
+.bg1 p{
+    padding: 0 90px 0 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 20px;
+}
+.bg1 h6{
+    color: rgba(255, 187, 0, 0.747) ;
+    font-size: 10px;
+    padding: 20px 0 20px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.bg2 p{
+    padding: 0 90px 0 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 20px;
+}
+.bg2 h6{
+    color:rgba(136, 133, 133, 0.904);
+    font-size: 12px;
+    padding: 5px 0 20px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.bg3 p{
+    padding: 0 0 0 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 30px;
+}
